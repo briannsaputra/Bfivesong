@@ -1,0 +1,340 @@
+header {
+  background: linear-gradient(
+    93deg,
+    rgb(251, 251, 253) 0%,
+    rgb(233, 232, 248) 100%
+  );
+  width: 100%;
+
+  height: 500px;
+}
+
+.navigation-bar {
+  padding: 40px 15px;
+  font-size: 18px;
+  line-height: 1.2;
+  margin: 0 auto;
+}
+
+.heading {
+  margin: 60px 30px;
+  padding: 50px;
+  text-align: center;
+  font-family: "Unica One", cursive;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+ul li a {
+  color: black;
+  text-decoration: none;
+  font-family: "Archivo", sans-serif;
+  transition: all 145ms ease-in-out;
+}
+
+ul li a:hover {
+  color: #9180be;
+  cursor: pointer;
+  text-shadow: rgb(130, 112, 129) 1px 0 10px;
+}
+
+i {
+  color: #213150;
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+i:hover {
+  color: #9180be;
+  cursor: pointer;
+  text-shadow: rgb(130, 112, 129) 1px 0 10px;
+}
+
+/* CONCERT PICTURES */
+.pictures-top-music {
+  background-color: rgb(26, 25, 25);
+  padding: 40px;
+  padding-bottom: 70px;
+}
+
+.title {
+  padding: 50px;
+  padding-bottom: 40px;
+}
+
+.pictures-top-music h2 {
+  font-family: "Unica One", cursive;
+  color: white;
+  font-size: 40px;
+}
+
+.pictures {
+  display: block;
+  margin: 20px auto;
+  width: 70%;
+  max-width: 800px;
+}
+
+.align-items-center-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* PLAYLISTS */
+.my-playlists-section {
+  background-color: #827081;
+  padding: 60px;
+}
+
+.header-playlist h2 {
+  color: white;
+  font-family: "Unica One", cursive;
+  margin: 15px;
+}
+
+.header-playlist p {
+  color: white;
+  font-family: "Archivo", sans-serif;
+  margin: 15px;
+}
+
+.container-playlists {
+  max-width: 1200px;
+  margin: 10px auto;
+}
+.stats-playlists {
+  margin: 25px auto;
+  padding: 20px;
+  width: 90%;
+}
+
+.card-stats {
+  background-color: #b1a2b0;
+  border-radius: 5px;
+  text-align: center;
+  margin: 10px 5px;
+  padding: 20px;
+}
+
+.card-stats h3 {
+  font-family: "Unica One", cursive;
+  font-size: 35px;
+}
+
+.card-stats p {
+  font-family: "Archivo", sans-serif;
+  color: white;
+  font-size: 15px;
+}
+
+.playlists {
+  display: block;
+  margin: 20px;
+  text-align: center;
+}
+
+.playlists iframe {
+  margin-bottom: 15px;
+}
+
+/* TELEPORT */
+.teleport-section {
+  background-image: linear-gradient(
+      rgba(110, 93, 110, 0.808),
+      rgba(95, 84, 99, 0.925)
+    ),
+    url("/img/brian1.jpg");
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 90px 0;
+}
+
+.teleport-section h1 {
+  color: white;
+  font-family: "Unica One", cursive;
+}
+
+.teleport-section h2 {
+  color: white;
+  font-family: "Archivo", sans-serif;
+  font-size: 15px;
+}
+/* Top Songs */
+.top-songs {
+  background-color: #827081;
+  display: block;
+  margin: 0 auto;
+  padding: 35px 15px;
+}
+
+.top-songs iframe {
+  margin: 20px 0px;
+  width: 80%;
+}
+/* ALBUMS */
+.left-albums {
+  background-image: linear-gradient(
+      rgba(110, 93, 110, 0.808),
+      rgba(95, 84, 99, 0.925)
+    ),
+    url("/img/brian1.jpg");
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 90px 0;
+}
+
+.left-albums h1 {
+  color: white;
+  font-family: "Unica One", cursive;
+}
+
+.left-albums p {
+  color: white;
+  font-family: "Archivo", sans-serif;
+  font-size: 15px;
+}
+
+.right-albums {
+  background-color: #827081;
+  padding: 40px 0;
+}
+
+.grid-albums {
+  display: grid;
+  grid-template-columns: 1fr;
+
+  justify-items: center;
+  align-items: center;
+}
+
+.right-albums iframe {
+  width: 90%;
+  height: 200px;
+  padding: 15px 10px;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #796378;
+  padding: 50px;
+  text-align: center;
+}
+
+.footer h1 {
+  color: white;
+  font-family: "Unica One", cursive;
+  font-size: 100px;
+}
+
+.footer p {
+  color: white;
+  font-family: "Archivo", sans-serif;
+  font-weight: 500;
+}
+
+.footer a {
+  color: rgb(222, 212, 233);
+}
+
+.footer a:hover {
+  color: white;
+  cursor: pointer;
+}
+.footer-icons {
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
+.footer-icons i {
+  color: rgb(230, 216, 235);
+  margin: 10px;
+  font-size: 30px;
+}
+
+.footer-icons i:hover {
+  color: white;
+}
+
+@media (max-width: 600px) {
+  header {
+    height: 400px;
+  }
+  .heading {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    font-family: "Unica One", cursive;
+  }
+  /* CONCERT PICTURES */
+  .pictures-top-music {
+    padding: 15px;
+    padding-bottom: 40px;
+  }
+  .title {
+    padding: 30px;
+    padding-bottom: 10px;
+  }
+  .pictures-top-music h2 {
+    font-size: 25px;
+  }
+  .pictures {
+    margin: 10px auto;
+  }
+  /* PLAYLISTS */
+  .my-playlists-section {
+    padding: 30px;
+  }
+  .stats-playlists {
+    margin: 5px auto;
+    padding: 10px;
+  }
+  .card-stats {
+    margin: 10px 5px;
+    padding: 15px;
+  }
+  .card-stats h3 {
+    font-family: "Unica One", cursive;
+    font-size: 25px;
+  }
+  .playlists {
+    margin: 0px;
+  }
+  .playlists iframe {
+    width: 100%;
+  }
+  /*Top songs*/
+  .top-songs {
+    padding: 25px 10px;
+  }
+
+  .top-songs iframe {
+    margin: 10px;
+    width: 95%;
+  }
+  /* Footer */
+  .footer h1 {
+    color: white;
+    font-family: "Unica One", cursive;
+    font-size: 45px;
+  }
+  .footer-icons {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .footer-icons i {
+    margin: 10px 4px;
+    font-size: 25px;
+  }
+}
